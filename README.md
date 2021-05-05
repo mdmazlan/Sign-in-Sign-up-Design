@@ -2,7 +2,7 @@
   <h1 align="center">Sign-in-Sign-up-Design</h1>
   <p align="center"> <br />
     <br />
-    <img src="/Screenshot0.png" width="288" height="592" />
+    <img src="/Screenshot0.png" width="268" height="572" />
     <img src="/Screenshot1.png" width="288" height="592" />
     <img src="/Screenshot2.png" width="288" height="592" />
     <h3 align="left">App Features</h3>
