@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".SignUp">
+
+
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="84dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"
+        android:background="@drawable/btn_bg"
+        android:orientation="vertical"
+        android:paddingEnd="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/kanit_medium"
+            android:text="Create"
+            android:textColor="#3f4658"
+            android:textSize="28sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="@string/username"
+            android:textColor="#BC3F4658"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:drawableEnd="@drawable/ic_user" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="@string/email"
+            android:textColor="#BC3F4658"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:drawableEnd="@drawable/ic" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="@string/password"
+            android:textColor="#BC3F4658"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:drawableEnd="@drawable/ic_pass" />
+
+
+        <Button
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/btn_login"
+            android:text="Register Now"
+            android:textColor="#ffff"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/kanit_regular"
+            android:text="Or Register using Social Media?"
+            android:textColor="#BC3F4658"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="32dp"
+                android:src="@drawable/fb" />
+
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="18dp"
+                android:src="@drawable/ggl" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Already have an Account"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:fontFamily="@font/kanit_regular"
+                android:text="Log In"
+                android:textColor="#ff7c17"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

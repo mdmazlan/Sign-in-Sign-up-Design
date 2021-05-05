@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sign in Sign Up Design</string>
+    <string name="register_now">Register Now</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_into_your_account">Sign into your Account</string>
+    <string name="forget_your_password">Forget your Password?</string>
+    <string name="or_log_in_using_social_media">Or log in using Social Media?</string>
+</resources>
