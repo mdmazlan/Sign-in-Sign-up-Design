@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/back_color_s"
     android:orientation="vertical"
     tools:context=".SignUp">
 
 
     <ImageView
-        android:layout_width="210dp"
-        android:layout_height="167dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_gravity="center"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="70dp"
         android:src="@drawable/logo" />
 
     <LinearLayout
@@ -21,26 +21,25 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="14dp"
         android:layout_marginRight="14dp"
-        android:background="@drawable/btn_bg"
+        android:padding="10dp"
         android:orientation="vertical"
+        android:paddingStart="12dp"
         android:paddingEnd="12dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="14dp"
-            android:fontFamily="@font/kanit_medium"
-            android:text="Create"
-            android:textColor="#3f4658"
-            android:textSize="28sp" />
-
+            android:fontFamily="@font/kanit_regular"
+            android:text="@string/sign_up_to_join"
+            android:textColor="#E4363D4E"
+            android:textSize="20sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="8dp"
             android:fontFamily="@font/kanit_regular"
             android:text="@string/username"
             android:textColor="#BC3F4658"
@@ -48,17 +47,21 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:textColor="#BC3F4658"
+            android:background="@drawable/edit_txt_back_color"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:paddingStart="5dp"
+            android:inputType="textEmailAddress"
             android:drawableEnd="@drawable/ic_user" />
-
 
         <TextView
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/kanit_regular"
             android:text="@string/email"
             android:textColor="#BC3F4658"
@@ -66,38 +69,51 @@
 
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/edit_txt_back_color"
+            android:textColor="#BC3F4658"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:paddingStart="5dp"
+            android:inputType="textEmailAddress"
             android:drawableEnd="@drawable/ic" />
 
 
         <TextView
             android:layout_width="wrap_content"
-
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/kanit_regular"
             android:text="@string/password"
             android:textColor="#BC3F4658"
             android:textSize="18sp" />
 
         <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="12dp"
-            android:drawableEnd="@drawable/ic_pass" />
 
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:inputType="textPassword"
+            android:paddingEnd="10dp"
+            android:textSize="16sp"
+            android:paddingStart="5dp"
+            android:textColor="#BC3F4658"
+            android:background="@drawable/edit_txt_back_color"
+            android:drawableEnd="@drawable/ic_pass" />
 
         <Button
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/btn_login"
-            android:text="Register Now"
-            android:textColor="#ffff"
-            android:textSize="16sp" />
+            android:layout_marginTop="15dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/kanit_semiblod"
+            android:textColor="#BC3F4658"
+            android:textAllCaps="false"
+            android:text="@string/sign_up"
+            android:textSize="14sp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -105,32 +121,34 @@
             android:layout_gravity="center"
             android:layout_marginTop="14dp"
             android:fontFamily="@font/kanit_regular"
-            android:text="Or Register using Social Media?"
+            android:text="@string/sign_up_with"
             android:textColor="#BC3F4658"
-            android:textSize="18sp" />
+            android:textSize="16sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="28dp"
-                android:layout_height="32dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:src="@drawable/fb" />
 
             <ImageView
-                android:layout_width="28dp"
-                android:layout_height="32dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:layout_marginStart="18dp"
                 android:src="@drawable/ggl" />
         </LinearLayout>
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="18dp"
+            android:layout_marginTop="10dp"
             android:layout_marginBottom="8dp"
             android:gravity="center"
             android:orientation="horizontal">
@@ -139,17 +157,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/kanit_regular"
-                android:text="Already have an Account"
-                android:textSize="18sp" />
+                android:text="@string/already_have"
+                android:textColor="#BC3F4658"
+                android:textSize="14sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="5dp"
                 android:fontFamily="@font/kanit_regular"
-                android:text="Log In"
+                android:text="@string/sign_in"
                 android:textColor="#ff7c17"
-                android:textSize="18sp" />
+                android:textSize="14sp" />
         </LinearLayout>
 
     </LinearLayout>
