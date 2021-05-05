@@ -8,6 +8,7 @@
     <h3 align="left">App Features</h3>
     
   * signin with Social Media
+  * XML Design
   * Edittext
   * Button
   * Textview 
