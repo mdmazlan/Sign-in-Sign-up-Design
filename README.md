@@ -3,13 +3,21 @@
   <p align="center">this is Sign in Sign up Design app design xml
  <br />
     <br />
-    <img src="/Screenshot.png" width="288" height="592" />
+    <img src="/Screenshot1.png" width="288" height="592" />
+    <img src="/Screenshot2.png" width="288" height="592" />
+
     <h3 align="left">App Features</h3>
     
-  * signup with google auth
+  * signin with Social Media
   * Edittext
   * Button
   * Textview 
   * Imageview
+  * LinearLayout
+  * Icon
+  * Font
+  * Drawable Resource
+  * Color
+  * Intent
   </p>
 </p>
