@@ -3,8 +3,8 @@
   <p align="center"> <br />
     <br />
     <img src="/Screenshot0.png" width="180" height="370" />
-    <img src="/Screenshot1.png" width="288" height="592" />
-    <img src="/Screenshot2.png" width="288" height="592" />
+    <img src="/Screenshot1.png" width="180" height="370" />
+    <img src="/Screenshot2.png" width="180" height="370" />
     <h3 align="left">App Features</h3>
     
   * signin with Social Media
